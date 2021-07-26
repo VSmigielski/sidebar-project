@@ -12,7 +12,7 @@ const Sidebar = () => {
             isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar' }`}>
             <div className="sidebar-header">
                 <img src={logo} className="logo" alt="coding addict"/>
-                <button className="close-btn" onCLick={closeSidebar}>
+                <button className="close-btn" onClick={closeSidebar}>
                     <FaTimes/>
                 </button>
             </div>
